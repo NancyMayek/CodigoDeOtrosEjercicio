@@ -23,7 +23,7 @@
 
 // displayUser('stolinski').catch(handleError);
 
-//En esta nueva funcion implemente el try y catch para que est
+//En esta nueva funcion implemente el try y catch para que este estubiera en una sola funcion y quite algunas variables que consideraba repetitivas
 const displayUserNew = async (username) => {
   try{
   $n = document.querySelector('.name');
