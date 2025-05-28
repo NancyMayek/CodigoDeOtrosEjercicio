@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,19 +12,25 @@
   <h2>Por favor, confirmar asistencia:</h2>
 
   <form class="formulario">
-    Nombre <input type="text" name="name" id="name">
-    <br />
-    Edad <input type="number" name="age" id="age">
-    <br />
+    <label for="name">Nombre</label><!--Puse los labels para el forms-->
+    <br> 
+    <input type="text" name="name" id="name">
+    <br>
 
-    Nacionalidad
+    <label for="age">Edad</label>
+    <br>
+    <input type="number" name="age" id="age">
+    <br>
+
+    <label for="nationality">Nacionalidad</label>
+    <br>
     <select name="nationality" id="nationality">
       <option value="ar">Argentina</option>
       <option value="mx">Mexicana</option>
       <option value="per">Peruana</option>
       <option value="vnzl">Venezolana</option>
     </select>
-    <br />
+    <br>
     <input type="submit">
   </form>
 
@@ -34,7 +39,7 @@
 
   </div>
 
-  <script src="../formulario.js"></script>
+  <script src="./formulario.js"></script> <!--Cambie la ruta, ahora esta bien-->
 </body>
 
 </html>
